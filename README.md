@@ -1,7 +1,6 @@
 # Arnaldo Personal Portfolio
 
-Project to present Developer Work
-
+Project to present Developer About, Work and Contact.
 ### Created using:
 
 * HTML
