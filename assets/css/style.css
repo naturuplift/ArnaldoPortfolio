@@ -57,48 +57,45 @@ body, h1, h2, h3, p, ul, li {
     color: black;
 }
 
-.column {
-    flex: 1 0 100%;
-    padding: 1.5rem;
-    /* when the screen resizes, make it so our columns don't jump in size */
-    transition: flex-basis 500ms linear;
-    margin-bottom: 1.5rem;
-}
-
-.row {
-    flex: 1 0 100%;
-    padding: 1.5rem;
-    /* when the screen resizes, make it so our columns don't jump in size */
-    transition: flex-basis 500ms linear;
-    margin-bottom: 1.5rem;
-}
-
-/* projects styling */
 .first-project {
     display: flex;
-    flex-direction: row;
+    flex: 1 0 100%;
+    padding: 1.5rem;
+    border: 3px solid blue;
+    background-image: url(https://user-images.githubusercontent.com/23546356/282273124-67e89579-6a7b-4972-9c57-dfdff0da134f.png);
+    background-size:600px;
+    background-repeat: no-repeat;
+    background-position-x: right;
     justify-content: flex-start;
-    min-height: 100%;
-    padding: 2rem;
-    color: black
-    outline: 2px dashed #e0eae4;
-    outline-offset: -2px;
-    transition: all 0.5s ease-in-out;
-    flex-grow: 1;
+    align-items: center;
+    font-size: 30px;
+    height: 800px;
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
 }
 
-.second-project,
-.third-project {
+.second-project {
     display: flex;
-    flex-direction: column;
+    flex: 1 0 100%;
+    padding: 1.5rem;
+    border: 3px solid blue;
+    background-image: url(https://images.unsplash.com/photo-1509463536615-1ca163bcfb3f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=3600);
+    background-size:300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
     justify-content: flex-start;
-    min-height: 100%;
-    padding: 2rem;
-    color: black;
-    outline: 2px dashed #e0eae4;
-    outline-offset: -2px;
-    transition: all 0.5s ease-in-out;
-    flex-grow: 1;
+    align-items: center;
+    font-size: 30px;
+    height: 150px;
+    flex-direction:row;
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
+}
+
+.first-project:hover,
+.second-project:hover {
+    background-color:rgba(128, 255, 0, 0.493);
+    color:blue;
 }
 
 /* sections heading*/
@@ -120,10 +117,8 @@ body, h1, h2, h3, p, ul, li {
 /* sections hovering*/
 .about:hover,
 .work:hover,
-.contact:hover,
-.column:hover,
-.row:hover {
-    border-color:chartreuse;
+.contact:hover {
+    background-color:rgba(128, 255, 0, 0.493);
     color:blue;
 }
 
