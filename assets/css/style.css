@@ -20,6 +20,8 @@ header {
 section,
 footer {
     padding: 40px;
+    margin: auto;
+    width: 600px;
 }
 
 /* navigation styling */
@@ -57,27 +59,28 @@ body, h1, h2, h3, p, ul, li {
     color: black;
 }
 
-.first-project {
+.first-project{
+    font-size: 30px;
+}
+
+.first-project-demo{
     display: flex;
     flex: 1 0 100%;
-    padding: 1.5rem;
     border: 3px solid blue;
-    background-image: url(https://user-images.githubusercontent.com/23546356/282273124-67e89579-6a7b-4972-9c57-dfdff0da134f.png);
+    background-image: url('https://user-images.githubusercontent.com/23546356/282273124-67e89579-6a7b-4972-9c57-dfdff0da134f.png');
     background-size:600px;
     background-repeat: no-repeat;
-    background-position-x: right;
-    justify-content: flex-start;
+    background-position: center;
+    display: block;
+    width: 595px;
+    height: 840px;
     align-items: center;
-    font-size: 30px;
-    height: 800px;
-    transition: flex-basis 500ms linear;
     margin-bottom: 1.5rem;
 }
 
 .coming-project {
     display: flex;
     flex: 1 0 100%;
-    padding: 1.5rem;
     border: 3px solid blue;
     background-image: url(https://images.unsplash.com/photo-1509463536615-1ca163bcfb3f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=3600);
     background-size:300px;
@@ -88,7 +91,6 @@ body, h1, h2, h3, p, ul, li {
     font-size: 30px;
     height: 150px;
     flex-direction:row;
-    transition: flex-basis 500ms linear;
     margin-bottom: 1.5rem;
 }
 
