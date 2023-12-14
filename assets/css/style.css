@@ -67,7 +67,8 @@ body, h1, h2, h3, p, ul, li {
     display: flex;
     flex: 1 0 100%;
     border: 3px solid blue;
-    background-image: url('https://user-images.githubusercontent.com/23546356/282273124-67e89579-6a7b-4972-9c57-dfdff0da134f.png');
+    background-image: url(
+        'https://user-images.githubusercontent.com/23546356/282273124-67e89579-6a7b-4972-9c57-dfdff0da134f.png');
     background-size:600px;
     background-repeat: no-repeat;
     background-position: center;
