@@ -1,32 +1,21 @@
-/* body styling */
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: rgba(223, 215, 138, 0.322);
-    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-/* header styling */
 header {
-    display: flex;
-    justify-content: center;
-    background-color: rgba(193, 211, 223, 0.473);
+    background-color: #333;
     color: #fff;
-    padding: 1em 0;
-    border: 3px solid black;
+    padding: 1rem 0;
+    text-align: center;
 }
 
-/* section styling */
-section,
-footer {
-    padding: 40px;
-    margin: auto;
-    width: 600px;
-}
-
-/* navigation styling */
 nav ul {
     list-style: none;
+    padding: 0;
 }
 
 nav ul li {
@@ -34,16 +23,23 @@ nav ul li {
     margin-right: 20px;
 }
 
-nav a {
-    color: black;
-    font-weight: bold;
-    font-size: 1.6rem;
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
 
-/* reset margins */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
+section {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 /* image styling */
@@ -53,76 +49,20 @@ body, h1, h2, h3, p, ul, li {
     border-radius: 50%;
     margin-bottom: 20px;
 }
-/* person name styling */
-.person {
-    font-size: 2em;
-    color: black;
-}
 
-.first-project{
-    font-size: 30px;
-}
-
-/* .first-project-demo{
-    display: flex;
-    flex: 1 0 100%;
-    border: 3px solid blue;
-    background-image: url('https://github.com/naturuplift/arnaldo-portfolio/blob/main/assets/images/search-sample.jpg');
-    background-size:600px;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: block;
-    width: 300px;
-    height: 200px;
+/* Custom styles for the layout */
+.main .row {
     align-items: center;
-    margin-bottom: 1.5rem;
-} */
-
-.first-project-demo {
-    width: 520px; /* Set the width and height according to your design */
-    height: 500px;
-    background-image: url('https://raw.githubusercontent.com/naturuplift/arnaldo-portfolio/main/assets/images/search-sample.jpg');
-    background-size: cover; /* This property scales the image to cover the container */
-    background-position: center; /* Center the image within the container */
-    display: block; /* Ensure the anchor tag behaves as a block element */
 }
 
-.coming-project {
-    display: flex;
-    flex: 1 0 100%;
-    border: 3px solid blue;
-    background-image: url(https://images.unsplash.com/photo-1509463536615-1ca163bcfb3f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=3600);
-    background-size:300px;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    justify-content: flex-start;
-    align-items: center;
-    font-size: 30px;
-    height: 150px;
-    flex-direction:row;
-    margin-bottom: 1.5rem;
+.main .col-md-4 {
+    text-align: right;
 }
 
 .first-project:hover,
 .coming-project:hover {
     background-color:rgba(128, 255, 0, 0.493);
     color:blue;
-}
-
-/* sections heading*/
-.about h2,
-.work h2,
-.contact h2 {
-    border-bottom: 3px solid black;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-}
-
-/* sections margin*/
-.about,
-.work,
-.contact {
-    margin-bottom: 30px;
 }
 
 /* sections hovering*/
@@ -150,3 +90,27 @@ body, h1, h2, h3, p, ul, li {
     }
 }
 
+.first-project-demo {
+    width: 520px; /* Set the width and height according to your design */
+    height: 500px;
+    background-image: url('https://raw.githubusercontent.com/naturuplift/arnaldo-portfolio/main/assets/images/search-sample.jpg');
+    background-size: cover; /* This property scales the image to cover the container */
+    background-position: center; /* Center the image within the container */
+    display: block; /* Ensure the anchor tag behaves as a block element */
+}
+
+.coming-project {
+    display: flex;
+    flex: 1 0 100%;
+    border: 3px solid blue;
+    background-image: url(https://images.unsplash.com/photo-1509463536615-1ca163bcfb3f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=3600);
+    background-size:300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 30px;
+    height: 150px;
+    flex-direction:row;
+    margin-bottom: 1.5rem;
+}
