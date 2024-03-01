@@ -49,5 +49,5 @@ Feel free to reach out, explore the projects, and get inspired! Contributions an
 
 This project is licensed under the MIT License. See the [LICENSE][MIT] file for details.
 
-[portfolio]: <https://naturuplift.github.io/arnaldo-portfolio/>
+[portfolio]: <https://naturuplift.github.io/ArnaldoPortfolio/>
 [MIT]: <https://github.com/naturuplift/password-generator/blob/main/LICENSE>
