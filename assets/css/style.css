@@ -91,22 +91,26 @@ footer {
     }
 }
 
-.first-project-demo,
-.second-project-demo {
-    width: 700px;
-    height: 500px; /* Maintain a fixed height, or adjust as needed */
-    background-size: contain; /* Ensure the entire image is shown, but this might introduce some blank space around the image */
-    background-repeat: no-repeat; /* Prevent the background image from repeating */
-    background-position: center; /* Center the background image within the container */
-    margin-bottom: 20px; /* Adds some space between the projects */
+.first-project-demo{
+    width: 520px; /* Set the width and height according to your design */
+    height: 500px;
+    background-size: cover; /* This property scales the image to cover the container */
+    background-position: center; /* Center the image within the container */
+    display: block; /* Ensure the anchor tag behaves as a block element */
+}
+
+.second-project-demo{
+    width: 600px; /* Set the width and height according to your design */
+    height: 500px;
+    background-size: cover; /* This property scales the image to cover the container */
+    background-position: center; /* Center the image within the container */
+    display: block; /* Ensure the anchor tag behaves as a block element */
 }
 
 .first-project-demo {
     background-image: url('https://raw.githubusercontent.com/naturuplift/ArnaldoPortfolio/de8a08be06c4840f9a726f97ddb3cc868250a008/assets/images/search-sample.jpg');
 }
-
 .second-project-demo {
-/*     width: 700px; /* Adjust width to be consistent or as per design requirements */ */
     background-image: url('https://raw.githubusercontent.com/naturuplift/ArnaldoPortfolio/de8a08be06c4840f9a726f97ddb3cc868250a008/assets/images/NoteMindAI%20writing.png');
 }
 
@@ -124,18 +128,4 @@ footer {
     height: 150px;
     flex-direction:row;
     margin-bottom: 1.5rem;
-}
-
-/* Container for projects to ensure they align to the right if needed */
-.project-container {
-    text-align: right; /* Aligns content to the right; adjust as needed based on your layout */
-}
-
-/* Responsive adjustments for smaller screens */
-@media (max-width: 768px) {
-    .first-project-demo, .second-project-demo {
-        width: 100%; /* Ensure images resize on smaller screens */
-        height: 500px;
-        background-size: cover; /* Change to cover to ensure the container is fully covered by the image */
-    }
 }
