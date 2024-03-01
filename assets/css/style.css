@@ -135,7 +135,7 @@ footer {
 @media (max-width: 768px) {
     .first-project-demo, .second-project-demo {
         width: 100%; /* Ensure images resize on smaller screens */
-        height: auto; /* Adjust height to maintain aspect ratio */
+        height: 500px;
         background-size: cover; /* Change to cover to ensure the container is fully covered by the image */
     }
 }
