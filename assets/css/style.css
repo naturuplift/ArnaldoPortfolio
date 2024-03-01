@@ -96,12 +96,14 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-end; /* Aligns children (projects) to the right */
+    overflow: hidden; /* Prevents content from overflowing */
+    max-width: 100%; /* Ensures container does not exceed its parent's width */
 }
 
 .first-project-demo, .second-project-demo {
     /* Common styles for project demo links */
-    width: 520px; /* Adjust width as needed, ensuring it fits within the parent container */
-    height: 500px;
+    max-width: 100%; /* Allow the image to scale down */
+    height: auto; /* Maintain aspect ratio */
     background-size: cover; /* Scales the image to cover the container */
     background-position: center; /* Center the image */
     display: block; /* Display as block to apply width and height */
