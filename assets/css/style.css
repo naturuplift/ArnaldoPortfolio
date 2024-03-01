@@ -91,22 +91,30 @@ footer {
     }
 }
 
-.first-project-demo{
-    width: 520px; /* Set the width and height according to your design */
-    height: 500px;
-    background-image: url('https://raw.githubusercontent.com/naturuplift/ArnaldoPortfolio/de8a08be06c4840f9a726f97ddb3cc868250a008/assets/images/search-sample.jpg');
-    background-size: cover; /* This property scales the image to cover the container */
-    background-position: center; /* Center the image within the container */
-    display: block; /* Ensure the anchor tag behaves as a block element */
+/* Parent container styling */
+.col-md-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Aligns children (projects) to the right */
 }
 
-.second-project-demo{
-    width: 600px; /* Set the width and height according to your design */
+.first-project-demo, .second-project-demo {
+    /* Common styles for project demo links */
+    width: 520px; /* Adjust width as needed, ensuring it fits within the parent container */
     height: 500px;
+    background-size: cover; /* Scales the image to cover the container */
+    background-position: center; /* Center the image */
+    display: block; /* Display as block to apply width and height */
+    margin-bottom: 20px; /* Adds some space between the projects */
+}
+
+.first-project-demo {
+    background-image: url('https://raw.githubusercontent.com/naturuplift/ArnaldoPortfolio/de8a08be06c4840f9a726f97ddb3cc868250a008/assets/images/search-sample.jpg');
+}
+
+.second-project-demo {
+    width: 520px; /* Adjust width to be consistent or as per design requirements */
     background-image: url('https://raw.githubusercontent.com/naturuplift/ArnaldoPortfolio/de8a08be06c4840f9a726f97ddb3cc868250a008/assets/images/NoteMindAI%20writing.png');
-    background-size: cover; /* This property scales the image to cover the container */
-    background-position: center; /* Center the image within the container */
-    display: block; /* Ensure the anchor tag behaves as a block element */
 }
 
 .coming-project {
