@@ -90,7 +90,8 @@ footer {
     }
 }
 
-.first-project-demo {
+.first-project-demo,
+.second-project-demo{
     width: 520px; /* Set the width and height according to your design */
     height: 500px;
     background-image: url('https://raw.githubusercontent.com/naturuplift/arnaldo-portfolio/main/assets/images/search-sample.jpg');
