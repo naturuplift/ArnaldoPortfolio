@@ -94,24 +94,19 @@ footer {
 .first-project-demo{
     width: 520px; /* Set the width and height according to your design */
     height: 500px;
+    background-image: url('https://raw.githubusercontent.com/naturuplift/ArnaldoPortfolio/de8a08be06c4840f9a726f97ddb3cc868250a008/assets/images/search-sample.jpg');
     background-size: cover; /* This property scales the image to cover the container */
     background-position: center; /* Center the image within the container */
     display: block; /* Ensure the anchor tag behaves as a block element */
 }
 
 .second-project-demo{
-    width: 600px; /* Set the width and height according to your design */
+    width: 520px; /* Set the width and height according to your design */
     height: 500px;
+    background-image: url('https://raw.githubusercontent.com/naturuplift/ArnaldoPortfolio/de8a08be06c4840f9a726f97ddb3cc868250a008/assets/images/NoteMindAI%20writing.png');
     background-size: cover; /* This property scales the image to cover the container */
     background-position: center; /* Center the image within the container */
     display: block; /* Ensure the anchor tag behaves as a block element */
-}
-
-.first-project-demo {
-    background-image: url('https://raw.githubusercontent.com/naturuplift/ArnaldoPortfolio/de8a08be06c4840f9a726f97ddb3cc868250a008/assets/images/search-sample.jpg');
-}
-.second-project-demo {
-    background-image: url('https://raw.githubusercontent.com/naturuplift/ArnaldoPortfolio/de8a08be06c4840f9a726f97ddb3cc868250a008/assets/images/NoteMindAI%20writing.png');
 }
 
 .coming-project {
