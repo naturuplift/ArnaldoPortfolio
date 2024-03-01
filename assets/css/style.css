@@ -93,7 +93,7 @@ footer {
 
 .first-project-demo,
 .second-project-demo {
-    width: 100%; /* Use 100% width to make it responsive */
+    width: 700px;
     height: 500px; /* Maintain a fixed height, or adjust as needed */
     background-size: contain; /* Ensure the entire image is shown, but this might introduce some blank space around the image */
     background-repeat: no-repeat; /* Prevent the background image from repeating */
