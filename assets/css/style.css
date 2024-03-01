@@ -94,7 +94,7 @@ footer {
 .first-project-demo{
     width: 520px; /* Set the width and height according to your design */
     height: 500px;
-    background-image: url('https://raw.githubusercontent.com/naturuplift/arnaldo-portfolio/main/assets/images/search-sample.jpg');
+    background-image: url('https://raw.githubusercontent.com/naturuplift/ArnaldoPortfolio/main/assets/images/search-sample.jpg');
     background-size: cover; /* This property scales the image to cover the container */
     background-position: center; /* Center the image within the container */
     display: block; /* Ensure the anchor tag behaves as a block element */
@@ -103,7 +103,7 @@ footer {
 .second-project-demo{
     width: 520px; /* Set the width and height according to your design */
     height: 500px;
-    background-image: url('https://raw.githubusercontent.com/naturuplift/arnaldo-portfolio/main/assets/images/NoteMindAI writing.jpg');
+    background-image: url('https://raw.githubusercontent.com/naturuplift/ArnaldoPortfolio/main/assets/images/NoteMindAI writing.jpg');
     background-size: cover; /* This property scales the image to cover the container */
     background-position: center; /* Center the image within the container */
     display: block; /* Ensure the anchor tag behaves as a block element */
