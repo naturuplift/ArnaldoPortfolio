@@ -96,18 +96,16 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-end; /* Aligns children (projects) to the right */
-    overflow: hidden; /* Prevents content from overflowing */
-    max-width: 100%; /* Ensures container does not exceed its parent's width */
+    width: 100%; /* Ensures container does not exceed its parent's width */
 }
 
 .first-project-demo, .second-project-demo {
-    /* Common styles for project demo links */
-    max-width: 100%; /* Allow the image to scale down */
-    height: auto; /* Maintain aspect ratio */
-    background-size: cover; /* Scales the image to cover the container */
-    background-position: center; /* Center the image */
-    display: block; /* Display as block to apply width and height */
-    margin-bottom: 20px; /* Adds some space between the projects */
+    width: 100%; /* Make the width responsive */
+    max-width: 520px; /* Max width to control size on larger screens */
+    height: 500px; /* Fixed height, adjust as necessary */
+    background-size: contain; /* Adjust so the background image is contained within the div, no cut off */
+    background-repeat: no-repeat; /* Prevent image repeat */
+    margin-bottom: 20px; /* Space between items */
 }
 
 .first-project-demo {
