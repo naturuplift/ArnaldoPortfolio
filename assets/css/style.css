@@ -100,12 +100,12 @@ footer {
 }
 
 .first-project-demo, .second-project-demo {
-    width: 100%; /* Make the width responsive */
-    max-width: 520px; /* Max width to control size on larger screens */
-    height: 500px; /* Fixed height, adjust as necessary */
-    background-size: contain; /* Adjust so the background image is contained within the div, no cut off */
-    background-repeat: no-repeat; /* Prevent image repeat */
-    margin-bottom: 20px; /* Space between items */
+    width: 520px; /* Set the width and height according to your design */
+    height: 500px;
+    background-image: url('https://raw.githubusercontent.com/naturuplift/arnaldo-portfolio/main/assets/images/search-sample.jpg');
+    background-size: cover; /* This property scales the image to cover the container */
+    background-position: center; /* Center the image within the container */
+    display: block; /* Ensure the anchor tag behaves as a block element */
 }
 
 .first-project-demo {
@@ -113,7 +113,7 @@ footer {
 }
 
 .second-project-demo {
-    width: 700px; /* Adjust width to be consistent or as per design requirements */
+/*     width: 700px; /* Adjust width to be consistent or as per design requirements */ */
     background-image: url('https://raw.githubusercontent.com/naturuplift/ArnaldoPortfolio/de8a08be06c4840f9a726f97ddb3cc868250a008/assets/images/NoteMindAI%20writing.png');
 }
 
