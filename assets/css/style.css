@@ -60,6 +60,7 @@ footer {
 }
 
 .first-project:hover,
+.second-project:hover,
 .coming-project:hover {
     background-color:rgba(128, 255, 0, 0.493);
     color:blue;
@@ -90,11 +91,19 @@ footer {
     }
 }
 
-.first-project-demo,
-.second-project-demo{
+.first-project-demo{
     width: 520px; /* Set the width and height according to your design */
     height: 500px;
     background-image: url('https://raw.githubusercontent.com/naturuplift/arnaldo-portfolio/main/assets/images/search-sample.jpg');
+    background-size: cover; /* This property scales the image to cover the container */
+    background-position: center; /* Center the image within the container */
+    display: block; /* Ensure the anchor tag behaves as a block element */
+}
+
+.second-project-demo{
+    width: 520px; /* Set the width and height according to your design */
+    height: 500px;
+    background-image: url('https://raw.githubusercontent.com/naturuplift/arnaldo-portfolio/main/assets/images/NoteMindAI writing.jpg');
     background-size: cover; /* This property scales the image to cover the container */
     background-position: center; /* Center the image within the container */
     display: block; /* Ensure the anchor tag behaves as a block element */
